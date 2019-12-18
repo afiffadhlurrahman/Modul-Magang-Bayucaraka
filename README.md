@@ -1,4 +1,4 @@
-#Vision menggunakan OpenCV
+# Vision menggunakan OpenCV
 
 Hal-hal yang perlu dipersiapkan :
 1. python
