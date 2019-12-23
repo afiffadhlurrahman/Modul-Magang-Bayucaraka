@@ -1,7 +1,9 @@
 # Vision menggunakan OpenCV
 
-Hal-hal yang perlu dipersiapkan :
-1. python
-2. OpenCV
-3. numpy
-4. matplotlib
+## Install Opencv
+
+### Ubuntu
+'''
+sudo apt update
+sudo apt install python3-opencv
+'''
