@@ -13,7 +13,7 @@ cv2.createTrackbar("U-S", "Trackbars", 255, 255, nothing)
 cv2.createTrackbar("U-V", "Trackbars", 255, 255, nothing)
 
 #font = cv2.initFont(cv.CV_FONT_HERSHEY_SIMPLEX, 1, 1, 0, 3, 8)
-font = cv2.FONT_HERSHEY_COMPLEX
+font = cv2.FONT_HERSHEY_SIMPLEX
 #hsv = cv2.cvtColor( img, cv2.COLOR_BGR2GRAY)
 
 while True:
@@ -44,11 +44,11 @@ while True:
         
 
         if w*h > 1000:
-            #cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),5)
+            cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),5)
             jumlah = jumlah+1
 
     #print(jumlah+1)
-    cv2.putText(img,"Jumlah : " + str(jumlah), (50,15),font,0.55,(0,0,255),1)
+    cv2.putText(img,"Jumlah : " + str(jumlah), (50,20),font,0.8,(0,0,255),3)
     cv2.imshow('image',img)
     
     # cv2.imshow('res',res)
