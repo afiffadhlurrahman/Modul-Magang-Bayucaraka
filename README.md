@@ -11,6 +11,8 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 
 ### For Windows
 ```
+python -m pip install --upgrade pip
+pip install matplotlib
 pip install opencv-python
 ```
 
