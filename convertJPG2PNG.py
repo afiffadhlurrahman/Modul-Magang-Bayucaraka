@@ -1,4 +1,4 @@
 from PIL import Image
 
-im = Image.open('noob.jpg')
-im.save('noob.png')
+im = Image.open('image.jpg')
+im.save('image.png')
