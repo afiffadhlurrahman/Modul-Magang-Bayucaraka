@@ -1,6 +1,7 @@
 ## Install Python-Opencv
 
 ### Prerequisites
+- python 3
 - numpy
 - matplotlib
 
