@@ -16,5 +16,6 @@ while True :
 
     if k == 27:
         print("hello")
+        break
 
 cv2.destroyAllWindows()
